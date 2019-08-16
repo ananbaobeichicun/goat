@@ -1,0 +1,8 @@
+<view class="show-box" wx:key wx:for="{{res}}">
+	<view>
+		{{item.title}}
+	</view>
+	<view bindtap="call" data-telnum='{{item.tel}}'>
+		Tel:{{item.tel==" "?"暂无":item.tel}}
+	</view>
+</view>

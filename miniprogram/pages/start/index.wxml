@@ -1,0 +1,14 @@
+<view class='title'>
+    <image id='logo-text' src='../../images/logo-text.png'></image>
+</view>
+<image src='../../images/logo.png' class='_logo'></image>
+<!--<navigator url="../index/index"><button id='start-search'>开始</button></navigator>-->
+<icon class='icon' bindtap='showcenetn' size='40' type='info' color="#00ffff"></icon>
+
+
+<button id='start-search' bindtap='goIndex'>
+    <image src='../../images/logo-null.png'></image>
+    <text>开始</text>
+</button>
+
+<view wx:if="{{flag}}" class='cenetn'>欢迎来到GoOnATrip小程序，我们是一款旅游推荐，导航的小程序，点击上方的开始按钮就可以进入到搜索界面，在上方的搜索框输入你想要去的地方，点击搜索即可查找路径及目的地周边的一些服务点</view>

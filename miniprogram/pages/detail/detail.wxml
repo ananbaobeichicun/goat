@@ -1,0 +1,9 @@
+<navigator url="../guide/index?address={{orig.longitude+','+orig.latitude}}"><button id="next">目的地周边</button></navigator>
+
+<map id="map" longitude="{{orig.longitude}}" latitude="{{orig.latitude}}" scale="12" markers="{{markers}}" polyline="{{polyline}}" show-location show-compass show-scale enable-rotate />
+<view>
+<button class='_view_btn'></button>
+<scroll-view scroll-y style="height: 50vh;">
+	<view class="steps-show" wx:key wx:for="{{steps}}">{{item}}</view>
+</scroll-view>
+</view>
