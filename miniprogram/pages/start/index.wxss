@@ -1,0 +1,67 @@
+
+
+/*@keyframes sharp{
+    0%{color: red}
+    14%{color: orange}
+    28%{color: yellow}
+    42%{color: green}
+    56%{color: blue}
+    70%{color: green}
+    84%{color: purple}
+    100%{color: red}
+}*/
+page{
+    color: #323232;
+}
+#logo-text{
+    height: 160rpx;
+    width: 750rpx;
+    
+}
+
+text{
+    text-align: center;
+    margin: 30rpx;
+    
+    /*animation: sharp 0.01s infinite;*/
+}
+
+.cenetn{
+    width: 500rpx;
+    box-sizing: border-box;
+    font-size: 30rpx;
+    text-indent: 2em;
+    line-height: 40rpx;
+    margin-left: 200rpx;
+    font-weight:700;
+    font-family: "华文仿宋";
+}
+
+#start-search{
+    height: 90rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40rpx;
+}
+#start-search image{
+    width: 50rpx;
+    height: 50rpx;  
+}
+._logo{
+    display: block;
+    height:550rpx;
+    width:550rpx;
+    margin: 30rpx auto;
+    /*
+    position: absolute;
+    top: 0;
+    left: 0;*/
+}
+
+.icon{
+    position: fixed;
+    bottom: 25rpx;
+    left: 25rpx;
+	  z-index: 100;
+}

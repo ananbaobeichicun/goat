@@ -1,0 +1,31 @@
+map {
+	width: 750rpx;
+	height: 50vh;
+}
+#next {
+	width: 300rpx;
+	height: 80rpx;
+    line-height: 80rpx;
+    position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 5;
+	border-radius: 10rpx;
+	background-color: white;
+  border: 2px solid black;
+  font-family: "华文仿宋";
+  font-weight: 700;
+	font-size: 45rpx;
+	opacity: 20%;
+}
+
+.steps-show {
+    text-align: left;
+    margin: 10rpx;
+	  border-radius:15rpx;
+    border: 5rpx solid #99ccFF;
+    font-family: "华文仿宋";
+    background-color:#99ccFF; 
+    font-style:normal;
+    font-weight: 600;
+}

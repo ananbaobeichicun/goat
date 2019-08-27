@@ -1,0 +1,21 @@
+{
+    "pages": [
+        "pages/start/index",
+        "pages/index/index",
+        "pages/detail/detail",
+        "pages/route/index"
+    ],
+    "permission": {
+        "scope.userLocation": {
+            "desc": "你的位置信息将用于小程序位置接口的效果展示"
+        }
+    },
+    "window": {
+        "navigationBarTitleText": "Go!",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "navigationBarTextStyle": "black",
+        "backgroundTextStyle": "light",
+        "backgroundColor": "#000"
+    },
+    "sitemapLocation": "sitemap.json"
+}
